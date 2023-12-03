@@ -58,15 +58,11 @@ def check_adjacent(x, y):
   if x < len(puzzle_input[y])-1 and get_element(x+1, y).isdigit(): # check right
     get_number(x+1, y)
 
-
-
 for y, lines in enumerate(puzzle_input):
   for x, element in enumerate(lines):
     if is_symbol(element):
       check_adjacent(x, y)
 
-print(num_list)
 answer = sum(num_list)
-#answer = 0
+
 print("Answer:",answer)
-#533544 too low 533784
