@@ -27,7 +27,6 @@ def get_number(x, y):
       start_x = i
       break
     if not get_element(i - 1, y).isdigit():
-      print("i:",i)
       start_x = i
       break
 
