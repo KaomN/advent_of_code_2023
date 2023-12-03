@@ -8,7 +8,7 @@ blue = 14
 possible_games = []
 
 def calculate_game(line):
-    game = lines.split(":")
+    game = line.split(":")
     sub_set = game.pop(1).split(";")
     possible = True
     for sub in sub_set:

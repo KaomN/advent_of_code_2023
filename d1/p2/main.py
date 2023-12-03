@@ -34,5 +34,3 @@ for lines in puzzle_input:
    answer += get_digits(lines)
 
 print("Answer:",answer)
-
-#54925
