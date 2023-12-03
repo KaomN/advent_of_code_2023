@@ -2,9 +2,6 @@
 with open ("../input.txt", "r") as f:
     puzzle_input = f.read().split("\n")
 
-red = 12
-green = 13
-blue = 14
 possible_games = []
 
 def calculate_game(line):
